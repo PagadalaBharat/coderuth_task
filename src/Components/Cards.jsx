@@ -17,7 +17,7 @@ function Cards() {
           bg={variant.toLowerCase()}
           key={variant}
           text={variant.toLowerCase() === 'light' ? 'dark' : 'white'}
-          style={{ width: '18rem' }}
+          // style={{ width: '18rem' }}
           className="mb-2"
         >
           <Card.Header>Header</Card.Header>
