@@ -1,20 +1,20 @@
-import React from 'react'
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "../Screens/Home"
-import Signin from '../Screens/Signin';
-import About from "../Screens/About"
-import Contact from "../Screens/Contact"
+import React from "react";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+import Home from "../Screens/Home";
+import Signin from "../Screens/Signin";
+import About from "../Screens/About";
+import Contact from "../Screens/Contact";
 const Stackss = () => {
   return (
     <BrowserRouter>
-    <Routes>
-      <Route path='/' Component={Home}/>
-      <Route path='/about' Component={About}/>
-      <Route path='/contact' Component={Contact}/>
-      <Route path='/signin' Component={Signin}/>
-    </Routes>
-  </BrowserRouter>
-  )
-}
+      <Switch>
+        <Route path="/" component={Home} />
+        <Route path="/about" component={About} />
+        <Route path="/contact" component={Contact} />
+        <Route path="/signin" component={Signin} />
+      </Switch>
+    </BrowserRouter>
+  );
+};
 
-export default Stackss
+export default Stackss;
