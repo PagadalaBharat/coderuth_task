@@ -4,10 +4,10 @@ import Cards from "../Components/Cards";
 const About = () => {
   return (
     <>
-      {/* <Header/> */}
+      <Header />
 
       <h1 style={{ textAlign: "center" }}> About Us</h1>
-      {/* < Cards /> */}
+      <Cards />
     </>
   );
 };
