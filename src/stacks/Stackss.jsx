@@ -8,10 +8,10 @@ const Stackss = () => {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/" component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/contact" component={Contact} />
-        <Route path="/signin" component={Signin} />
+        <Route exact path="/" component={Home} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/contact" component={Contact} />
+        <Route exact path="/signin" component={Signin} />
       </Switch>
     </BrowserRouter>
   );

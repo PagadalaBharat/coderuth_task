@@ -1,16 +1,15 @@
-import React from 'react'
-import Header from '../Components/header';
-import Cards from "../Components/Cards"
+import React from "react";
+import Header from "../Components/header";
+import Cards from "../Components/Cards";
 const About = () => {
   return (
-<>
+    <>
+      {/* <Header/> */}
 
-<Header/>
+      <h1 style={{ textAlign: "center" }}> About Us</h1>
+      {/* < Cards /> */}
+    </>
+  );
+};
 
- <h1 style={{textAlign:"center"}}> About Us</h1>
- < Cards />
-</>
-  )
-}
-
-export default About
+export default About;
